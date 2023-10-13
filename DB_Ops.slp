@@ -1,0 +1,268 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {},
+    "property_map": {
+        "error": {
+            "11111111-1111-1111-1111-000000000000_error0": {
+                "label": {
+                    "value": "Oracle Stored Procedure - error0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "parthiban.selvam@astrazeneca.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000000_input101": {
+                "label": {
+                    "value": "Oracle Stored Procedure - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-000000000000_output0": {
+                "label": {
+                    "value": "Oracle Stored Procedure - Output Parameter OutputView"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000000_output1": {
+                "label": {
+                    "value": "Oracle Stored Procedure - Result Set Output View"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "error_param_table": {
+                "value": []
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": null
+            },
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": []
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {
+                    "error0": {
+                        "dx_int": 0,
+                        "dy_int": -1,
+                        "rot_int": 0
+                    }
+                },
+                "grid_x_int": 3,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-oracle-storedprocedure",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "RAC"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snap-api-sql-accounts-oraclethindatabaseaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "continue"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Oracle Stored Procedure"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input101": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "Output Parameter OutputView"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "Result Set Output View"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "customTypeParamsInfo": {
+                        "value": [
+                            {
+                                "customTypeParameterIndex": {
+                                    "expression": false,
+                                    "value": "1"
+                                },
+                                "customTypeParameterType": {
+                                    "expression": false,
+                                    "value": "\"RCE_PUBLISH\".\"P_CREATE_LIST_INPUT\""
+                                }
+                            },
+                            {
+                                "customTypeParameterIndex": {
+                                    "expression": false,
+                                    "value": "2"
+                                },
+                                "customTypeParameterType": {
+                                    "expression": false,
+                                    "value": "\"RCE_PUBLISH\".\"P_CREATE_LIST_OUTPUT\""
+                                }
+                            },
+                            {
+                                "customTypeParameterIndex": {
+                                    "expression": false,
+                                    "value": "3"
+                                },
+                                "customTypeParameterType": {
+                                    "expression": false,
+                                    "value": "\"RCE_PUBLISH\".\"P_REC_DTLS_OBJ\""
+                                }
+                            },
+                            {
+                                "customTypeParameterIndex": {
+                                    "expression": false,
+                                    "value": "4"
+                                },
+                                "customTypeParameterType": {
+                                    "expression": false,
+                                    "value": "\"RCE_PUBLISH\".\"P_RES_OBJ\""
+                                }
+                            }
+                        ]
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "packageName": {
+                        "expression": false,
+                        "value": "\"PKG_REP_FNDR\""
+                    },
+                    "parameterValues": {
+                        "value": [
+                            {
+                                "parameterValue": {
+                                    "expression": true,
+                                    "value": "[{\"EFFCT_DT\":null,\"TEAM_NM\":'',\"FNCT_ROLE_CD\":'PSS',\"BUSS_UNIT\":0,\"FT_STAT_FILTER\":'',\"START_AT_NO\":1,\"NO_OF_REC\":10}]"
+                                }
+                            }
+                        ]
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "procedureSequence": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "schemaName": {
+                        "expression": false,
+                        "value": "\"RCE_PUBLISH\""
+                    },
+                    "storedProcedureName": {
+                        "expression": false,
+                        "value": "\"RCE_PUBLISH\".\"PKG_REP_FNDR\".\"PROC_CREATE_LIST\""
+                    }
+                },
+                "view_serial": 101
+            }
+        }
+    }
+}

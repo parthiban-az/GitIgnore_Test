@@ -1,0 +1,934 @@
+
+<ns5:StandardExtractRequestEBM xmlns:svcdoc="http://xmlns.oracle.com/Services/Documentation/V1" xmlns:commonEBO="http://hrsoa.astrazeneca.com/EnterpriseObjectLibrary/CommonEBO/CommonEBOTypes/V1" xmlns:ns2="http://hrsoa.astrazeneca.com/EnterpriseObjectLibrary/Core/CommonTypes/V1" xmlns:ns1="http://hrsoa.astrazeneca.com/EnterpriseObjects/Core/EnumTypes/V1" xmlns:ns4="http://hrsoa.astrazeneca.com/EnterpriseObjects/Core/DataTypes/V1" xmlns:ns3="http://tande.astrazeneca.com/EnterpriseObjects/EBO/AttendeeExtractEBO/V1/AttendeeExtract" xmlns:StandardExtractEBO="http://tande.astrazeneca.com/EnterpriseObjects/EBO/StandardExtractEBO/V1" xmlns:ns5="http://tande.astrazeneca.com/EnterpriseObjects/EBM/StandardExtractEBM/V1">
+<ns5:StandardExtractRequest>
+<ns5:StandardExtractEBOType>
+<ns5:Constant secure="">DETAIL</ns5:Constant>
+<ns5:BatchID secure="">4788</ns5:BatchID>
+<ns5:BatchDate secure="">2019-02-28T00:00:00.000+00:00</ns5:BatchDate>
+<ns5:SequenceNumber secure="">2</ns5:SequenceNumber>
+<ns5:Employee>
+<ns5:EmployeeID secure="">KFTL916</ns5:EmployeeID>
+<ns5:EmployeeLastName secure="">ARDILA GUEVARA</ns5:EmployeeLastName>
+<ns5:EmployeeFirstName secure="">JAVIER HUMBERTO</ns5:EmployeeFirstName>
+<ns5:EmpgroupID secure="">CO</ns5:EmpgroupID>
+<ns5:EmpOrgUnit1 secure="">6000</ns5:EmpOrgUnit1>
+<ns5:EmpOrgUnit2 secure="">110090</ns5:EmpOrgUnit2>
+<ns5:EmpOrgUnit4 secure="">6000</ns5:EmpOrgUnit4>
+<ns5:EmpOrgUnit5 secure="">INTERNAL ORDER</ns5:EmpOrgUnit5>
+<ns5:AdjustedReclaimTax secure="">92.5900</ns5:AdjustedReclaimTax>
+<ns5:EmployeeData>
+<ns5:UserLoginID secure="">Javier.Ardila@astrazeneca.com</ns5:UserLoginID>
+<ns5:UserEmailAddress secure="">Javier.Ardila@zastrazeneca.com</ns5:UserEmailAddress>
+<ns5:EmpCustom1 secure="">6000</ns5:EmpCustom1>
+<ns5:EmpCustom3 secure="">50018523-International</ns5:EmpCustom3>
+<ns5:EmpCustom4 secure="">COS-Commercial - Sales</ns5:EmpCustom4>
+<ns5:EmpCustom5 secure="">Primary Care First Line Sales Manager</ns5:EmpCustom5>
+<ns5:EmpCustom6 secure="">CO - AN_SA_CP2|ANTIOQUIA Y SANTADER_UCP12</ns5:EmpCustom6>
+<ns5:EmpCustom7 secure="">05526154</ns5:EmpCustom7>
+</ns5:EmployeeData>
+<ns5:ReportData>
+<ns5:ReportID secure="">A7C1AAAD23434DEFA90B</ns5:ReportID>
+<ns5:ReportKey secure="">60140</ns5:ReportKey>
+<ns5:LedgerCode secure="">SCOA</ns5:LedgerCode>
+<ns5:EmpCurrencyAlphaCode secure="">COP</ns5:EmpCurrencyAlphaCode>
+<ns5:RepHomeCountry secure="">COLOMBIA</ns5:RepHomeCountry>
+<ns5:RepSubmitDate secure="">2019-02-22</ns5:RepSubmitDate>
+<ns5:RepUserDefinedDate secure="">2019-02-22T00:00:00.000+00:00</ns5:RepUserDefinedDate>
+<ns5:ReportName secure="">Columbia Report</ns5:ReportName>
+<ns5:RepImageRequired secure="">Y</ns5:RepImageRequired>
+<ns5:RepHasVATEntry secure="">Y</ns5:RepHasVATEntry>
+<ns5:RepHasTAEntry secure="">N</ns5:RepHasTAEntry>
+<ns5:RepTotPostedAmnt secure="">635.0000</ns5:RepTotPostedAmnt>
+<ns5:RepTotApprovedAmnt secure="">635.0000</ns5:RepTotApprovedAmnt>
+<ns5:RepPolicyName secure="">*AZ Colombia Expense Policy</ns5:RepPolicyName>
+<ns5:RepOrgUnit1 secure="">6000</ns5:RepOrgUnit1>
+<ns5:RepOrgUnit2 secure="">110090</ns5:RepOrgUnit2>
+<ns5:RepOrgUnit4 secure="">6000</ns5:RepOrgUnit4>
+<ns5:RepOrgUnit5 secure="">INTERNAL ORDER</ns5:RepOrgUnit5>
+<ns5:RepCustom1 secure="">6000</ns5:RepCustom1>
+<ns5:PersonalExpenses secure="">0.0000</ns5:PersonalExpenses>
+<ns5:TotAmntClaimed secure="">635.0000</ns5:TotAmntClaimed>
+<ns5:AmntDueEmp secure="">635.0000</ns5:AmntDueEmp>
+<ns5:AmntDueCompanyCard secure="">0.0000</ns5:AmntDueCompanyCard>
+<ns5:AmntNotApproved secure="">0.0000</ns5:AmntNotApproved>
+<ns5:AmntDueEmp1 secure="">635.0000</ns5:AmntDueEmp1>
+<ns5:AmntDueCompanyCard1 secure="">0.0000</ns5:AmntDueCompanyCard1>
+<ns5:TotTaxAdjustedAmnt secure="">7.4100</ns5:TotTaxAdjustedAmnt>
+<ns5:NetAdjustedTaxAmnt secure="">92.5900</ns5:NetAdjustedTaxAmnt>
+<ns5:ReportEntryData>
+<ns5:ReportEntryId secure="">127946</ns5:ReportEntryId>
+<ns5:RepEntryTransactionType secure="">REG</ns5:RepEntryTransactionType>
+<ns5:RepEntryExpenseTypeName secure="">Meals with Healthcare Professionals</ns5:RepEntryExpenseTypeName>
+<ns5:RepEntryTransactionDate secure="">2019-02-22T00:00:00.000+00:00</ns5:RepEntryTransactionDate>
+<ns5:RepCurrencyAlphaCode secure="">COP</ns5:RepCurrencyAlphaCode>
+<ns5:RepEntryExchangeRate secure="">1.0000</ns5:RepEntryExchangeRate>
+<ns5:ExchangeRateDirection secure="">M</ns5:ExchangeRateDirection>
+<ns5:IsPersonalFlag secure="">N</ns5:IsPersonalFlag>
+<ns5:RepEntryDescription secure="">Meal HCP</ns5:RepEntryDescription>
+<ns5:RepEntryVendorDescription secure="">venfor</ns5:RepEntryVendorDescription>
+<ns5:ReceiptReceivedFlag secure="">N</ns5:ReceiptReceivedFlag>
+<ns5:RepEntryReceiptType secure="">R</ns5:RepEntryReceiptType>
+<ns5:TotEmpAttendee secure="">1</ns5:TotEmpAttendee>
+<ns5:RepEntryOrgUnit2 secure="">110090</ns5:RepEntryOrgUnit2>
+<ns5:RepEntryOrgUnit4 secure="">6000</ns5:RepEntryOrgUnit4>
+<ns5:RepEntryOrgUnit5 secure="">INTERNAL ORDER</ns5:RepEntryOrgUnit5>
+<ns5:RepEntryCustom1 secure="">6000</ns5:RepEntryCustom1>
+<ns5:RepEntryCustom3 secure="">789</ns5:RepEntryCustom3>
+<ns5:RepEntryCustom5 secure="">123</ns5:RepEntryCustom5>
+<ns5:RepEntryCustom8 secure="">456</ns5:RepEntryCustom8>
+<ns5:RepEntryCustom10 secure="">Lunch</ns5:RepEntryCustom10>
+<ns5:RepEntryCustom11 secure="">Other</ns5:RepEntryCustom11>
+<ns5:RepEntryCustom23 secure="">6000</ns5:RepEntryCustom23>
+<ns5:RepEntryCustom24 secure="">-</ns5:RepEntryCustom24>
+<ns5:RepEntryCustom35 secure="">CO</ns5:RepEntryCustom35>
+<ns5:RepEntryCustom38>C1</ns5:RepEntryCustom38>
+<ns5:RepEntryCustom39 secure="">7.4100</ns5:RepEntryCustom39>
+<ns5:RepEntryCustom40 secure="">92.5900</ns5:RepEntryCustom40>
+<ns5:RepEntryTransactionAmnt secure="">100.0000</ns5:RepEntryTransactionAmnt>
+<ns5:RepEntryPostedAmnt secure="">100.0000</ns5:RepEntryPostedAmnt>
+<ns5:RepEntryApprovedAmnt secure="">100.0000</ns5:RepEntryApprovedAmnt>
+<ns5:PaymentTypeCode secure="">CASH</ns5:PaymentTypeCode>
+<ns5:PaymentCode secure="">Cash</ns5:PaymentCode>
+<ns5:CreditCardData/>
+<ns3:AttendeeData>
+<ns3:AttendeeKey>222058</ns3:AttendeeKey>
+<ns3:AttendeeUniqueIdentifier secure="">kftl916</ns3:AttendeeUniqueIdentifier>
+<ns3:AttendeeTypeName secure="">This Employee</ns3:AttendeeTypeName>
+<ns3:AttendeeTypeCode secure="">SYSEMP</ns3:AttendeeTypeCode>
+<ns3:AttendeeLastName secure="">ARDILA GUEVARA</ns3:AttendeeLastName>
+<ns3:AttendeeFirstName secure="">JAVIER HUMBERTO</ns3:AttendeeFirstName>
+<ns3:AttendeeYear-To-DateAmount secure="">0.00</ns3:AttendeeYear-To-DateAmount>
+<ns3:AttendeePreviousYearAmount secure="">0.00</ns3:AttendeePreviousYearAmount>
+<ns3:CurrencyAlphaCodeofAttendeeCurrency secure="">COP</ns3:CurrencyAlphaCodeofAttendeeCurrency>
+<ns3:AttendeeTransactionAmount secure="">50.00</ns3:AttendeeTransactionAmount>
+<ns3:AttendeeApprovedAmountinReimbursementCurrency secure="">50.00</ns3:AttendeeApprovedAmountinReimbursementCurrency>
+<ns3:AttendeeApprovedAmountinAttendeeCurrency secure="">50.00</ns3:AttendeeApprovedAmountinAttendeeCurrency>
+<ns3:AttendeeInstanceCount secure="">1</ns3:AttendeeInstanceCount>
+<ns3:AttendeeAmountIsEdited secure="">N</ns3:AttendeeAmountIsEdited>
+<ns3:ExpenseLocationCountryCode secure="">CO</ns3:ExpenseLocationCountryCode>
+<ns3:ExpenseLocationCityName secure="">Bogota</ns3:ExpenseLocationCityName>
+</ns3:AttendeeData>
+<ns3:AttendeeData>
+<ns3:AttendeeKey>222058</ns3:AttendeeKey>
+<ns3:AttendeeUniqueIdentifier secure="">kftl916</ns3:AttendeeUniqueIdentifier>
+<ns3:AttendeeTypeName secure="">This Employee</ns3:AttendeeTypeName>
+<ns3:AttendeeTypeCode secure="">SYSEMP</ns3:AttendeeTypeCode>
+<ns3:AttendeeLastName secure="">ARDILA GUEVARA</ns3:AttendeeLastName>
+<ns3:AttendeeFirstName secure="">JAVIER HUMBERTO</ns3:AttendeeFirstName>
+<ns3:AttendeeYear-To-DateAmount secure="">0.00</ns3:AttendeeYear-To-DateAmount>
+<ns3:AttendeePreviousYearAmount secure="">0.00</ns3:AttendeePreviousYearAmount>
+<ns3:CurrencyAlphaCodeofAttendeeCurrency secure="">COP</ns3:CurrencyAlphaCodeofAttendeeCurrency>
+<ns3:AttendeeTransactionAmount secure="">50.00</ns3:AttendeeTransactionAmount>
+<ns3:AttendeeApprovedAmountinReimbursementCurrency secure="">50.00</ns3:AttendeeApprovedAmountinReimbursementCurrency>
+<ns3:AttendeeApprovedAmountinAttendeeCurrency secure="">50.00</ns3:AttendeeApprovedAmountinAttendeeCurrency>
+<ns3:AttendeeInstanceCount secure="">1</ns3:AttendeeInstanceCount>
+<ns3:AttendeeAmountIsEdited secure="">N</ns3:AttendeeAmountIsEdited>
+<ns3:ExpenseLocationCountryCode secure="">CO</ns3:ExpenseLocationCountryCode>
+<ns3:ExpenseLocationCityName secure="">Bogota</ns3:ExpenseLocationCityName>
+</ns3:AttendeeData>
+<ns3:AttendeeData>
+<ns3:AttendeeKey>222059</ns3:AttendeeKey>
+<ns3:AttendeeUniqueIdentifier secure="">CO1001|-</ns3:AttendeeUniqueIdentifier>
+<ns3:AttendeeTypeName secure="">Health Care Professional (CO)</ns3:AttendeeTypeName>
+<ns3:AttendeeTypeCode secure="">HCPCO</ns3:AttendeeTypeCode>
+<ns3:AttendeeLastName secure="">D PASTEUR BANCOLOM P2786</ns3:AttendeeLastName>
+<ns3:AttendeeFirstName secure="">ENCARGADO DE FARMACIA</ns3:AttendeeFirstName>
+<ns3:AttendeeCompanyName secure="">D PASTEUR BANCOLOM P2786</ns3:AttendeeCompanyName>
+<ns3:AttendeeTitle secure="">Dr.</ns3:AttendeeTitle>
+<ns3:AttendeeYear-To-DateAmount secure="">0.00</ns3:AttendeeYear-To-DateAmount>
+<ns3:AttendeePreviousYearAmount secure="">0.00</ns3:AttendeePreviousYearAmount>
+<ns3:CurrencyAlphaCodeofAttendeeCurrency secure="">USD</ns3:CurrencyAlphaCodeofAttendeeCurrency>
+<ns3:AttendeeCustom7 secure="">-</ns3:AttendeeCustom7>
+<ns3:AttendeeCustom8 secure="">-</ns3:AttendeeCustom8>
+<ns3:AttendeeCustom9 secure="">PHTE</ns3:AttendeeCustom9>
+<ns3:AttendeeCustom14 secure="">-</ns3:AttendeeCustom14>
+<ns3:AttendeeCustom15 secure="">CR 48 26-85 LC 5</ns3:AttendeeCustom15>
+<ns3:AttendeeCustom18 secure="">MEDELLIN</ns3:AttendeeCustom18>
+<ns3:AttendeeTransactionAmount secure="">50.00</ns3:AttendeeTransactionAmount>
+<ns3:AttendeeApprovedAmountinReimbursementCurrency secure="">50.00</ns3:AttendeeApprovedAmountinReimbursementCurrency>
+<ns3:AttendeeApprovedAmountinAttendeeCurrency secure="">0.02</ns3:AttendeeApprovedAmountinAttendeeCurrency>
+<ns3:AttendeeInstanceCount secure="">1</ns3:AttendeeInstanceCount>
+<ns3:AttendeeAmountIsEdited secure="">N</ns3:AttendeeAmountIsEdited>
+<ns3:ExpenseLocationCountryCode secure="">CO</ns3:ExpenseLocationCountryCode>
+<ns3:ExpenseLocationCityName secure="">Bogota</ns3:ExpenseLocationCityName>
+<ns3:AttendeeCustom25 secure="">-</ns3:AttendeeCustom25>
+</ns3:AttendeeData>
+<ns3:AttendeeData>
+<ns3:AttendeeKey>222059</ns3:AttendeeKey>
+<ns3:AttendeeUniqueIdentifier secure="">CO1001|-</ns3:AttendeeUniqueIdentifier>
+<ns3:AttendeeTypeName secure="">Health Care Professional (CO)</ns3:AttendeeTypeName>
+<ns3:AttendeeTypeCode secure="">HCPCO</ns3:AttendeeTypeCode>
+<ns3:AttendeeLastName secure="">D PASTEUR BANCOLOM P2786</ns3:AttendeeLastName>
+<ns3:AttendeeFirstName secure="">ENCARGADO DE FARMACIA</ns3:AttendeeFirstName>
+<ns3:AttendeeCompanyName secure="">D PASTEUR BANCOLOM P2786</ns3:AttendeeCompanyName>
+<ns3:AttendeeTitle secure="">Dr.</ns3:AttendeeTitle>
+<ns3:AttendeeYear-To-DateAmount secure="">0.00</ns3:AttendeeYear-To-DateAmount>
+<ns3:AttendeePreviousYearAmount secure="">0.00</ns3:AttendeePreviousYearAmount>
+<ns3:CurrencyAlphaCodeofAttendeeCurrency secure="">USD</ns3:CurrencyAlphaCodeofAttendeeCurrency>
+<ns3:AttendeeCustom7 secure="">-</ns3:AttendeeCustom7>
+<ns3:AttendeeCustom8 secure="">-</ns3:AttendeeCustom8>
+<ns3:AttendeeCustom9 secure="">PHTE</ns3:AttendeeCustom9>
+<ns3:AttendeeCustom14 secure="">-</ns3:AttendeeCustom14>
+<ns3:AttendeeCustom15 secure="">CR 48 26-85 LC 5</ns3:AttendeeCustom15>
+<ns3:AttendeeCustom18 secure="">MEDELLIN</ns3:AttendeeCustom18>
+<ns3:AttendeeTransactionAmount secure="">50.00</ns3:AttendeeTransactionAmount>
+<ns3:AttendeeApprovedAmountinReimbursementCurrency secure="">50.00</ns3:AttendeeApprovedAmountinReimbursementCurrency>
+<ns3:AttendeeApprovedAmountinAttendeeCurrency secure="">0.02</ns3:AttendeeApprovedAmountinAttendeeCurrency>
+<ns3:AttendeeInstanceCount secure="">1</ns3:AttendeeInstanceCount>
+<ns3:AttendeeAmountIsEdited secure="">N</ns3:AttendeeAmountIsEdited>
+<ns3:ExpenseLocationCountryCode secure="">CO</ns3:ExpenseLocationCountryCode>
+<ns3:ExpenseLocationCityName secure="">Bogota</ns3:ExpenseLocationCityName>
+<ns3:AttendeeCustom25 secure="">-</ns3:AttendeeCustom25>
+</ns3:AttendeeData>
+<ns5:AllocationData IsTip="" TipVatCode="">
+<ns5:AllocKey>132846E</ns5:AllocKey>
+<ns5:AllocPercentage secure="">100.0000</ns5:AllocPercentage>
+<ns5:AllocCustom1 secure="">6000</ns5:AllocCustom1>
+<ns5:AllocCustom2>110090</ns5:AllocCustom2>
+<ns5:AllocCustom4 secure="">6000</ns5:AllocCustom4>
+<ns5:AllocCustom5>INTERNAL ORDER</ns5:AllocCustom5>
+<ns5:AllocCustom6/>
+<ns5:AllocCustom7 secure="">6000</ns5:AllocCustom7>
+<ns5:AllocCustom8/>
+<ns5:AllocCustom9 secure="">6000</ns5:AllocCustom9>
+<ns5:AllocCustom10 secure="">-</ns5:AllocCustom10>
+<ns5:TotAdjustedTax secure="">92.5900</ns5:TotAdjustedTax>
+<ns5:EntryLocationData>
+<ns5:ForeignorDomesticFlag secure="">HOME</ns5:ForeignorDomesticFlag>
+</ns5:EntryLocationData>
+<ns5:JournalEntryData>
+<ns5:JournalPayerPaymentTypeName secure="">Company</ns5:JournalPayerPaymentTypeName>
+<ns5:JournalPayerPaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayerPaymentCodeName>
+<ns5:JournalPayeePaymentTypeName secure="">Employee</ns5:JournalPayeePaymentTypeName>
+<ns5:JournalPayeePaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayeePaymentCodeName>
+<ns5:JournalAccountCode SAEGLCode="56800400" AZ="0" HCP="4" TotalAttendees="4">56800400</ns5:JournalAccountCode>
+<ns5:JournalDebitOrCredit secure="">DR</ns5:JournalDebitOrCredit>
+<ns5:JournalAmnt>+100.0000</ns5:JournalAmnt>
+<ns5:JournalKey>300961E</ns5:JournalKey>
+<ns5:LocalCurrencyJournalAmnt>100.0000</ns5:LocalCurrencyJournalAmnt>
+</ns5:JournalEntryData>
+</ns5:AllocationData>
+<ns5:AllocationData IsTip="" TipVatCode="">
+<ns5:AllocKey>132846E</ns5:AllocKey>
+<ns5:AllocPercentage secure="">100.0000</ns5:AllocPercentage>
+<ns5:AllocCustom1 secure="">6000</ns5:AllocCustom1>
+<ns5:AllocCustom2>110090</ns5:AllocCustom2>
+<ns5:AllocCustom4 secure="">6000</ns5:AllocCustom4>
+<ns5:AllocCustom5>INTERNAL ORDER</ns5:AllocCustom5>
+<ns5:AllocCustom6/>
+<ns5:AllocCustom7 secure="">6000</ns5:AllocCustom7>
+<ns5:AllocCustom8/>
+<ns5:AllocCustom9 secure="">6000</ns5:AllocCustom9>
+<ns5:AllocCustom10 secure="">-</ns5:AllocCustom10>
+<ns5:EntryLocationData>
+<ns5:ForeignorDomesticFlag secure="">HOME</ns5:ForeignorDomesticFlag>
+</ns5:EntryLocationData>
+<ns5:JournalEntryData>
+<ns5:JournalPayerPaymentTypeName secure="">VAT</ns5:JournalPayerPaymentTypeName>
+<ns5:JournalPayeePaymentTypeName secure="">Company</ns5:JournalPayeePaymentTypeName>
+<ns5:JournalPayeePaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayeePaymentCodeName>
+<ns5:JournalAccountCode SAEGLCode="56800400" AZ="0" HCP="4" TotalAttendees="4"/>
+<ns5:JournalDebitOrCredit secure="">CR</ns5:JournalDebitOrCredit>
+<ns5:JournalAmnt>+7.4100</ns5:JournalAmnt>
+<ns5:JournalKey>300961E</ns5:JournalKey>
+<ns5:LocalCurrencyJournalAmnt>100.0000</ns5:LocalCurrencyJournalAmnt>
+</ns5:JournalEntryData>
+</ns5:AllocationData>
+<ns5:AllocationData IsTip="" TipVatCode="">
+<ns5:AllocKey>132846E</ns5:AllocKey>
+<ns5:AllocPercentage secure="">100.0000</ns5:AllocPercentage>
+<ns5:AllocCustom1 secure="">6000</ns5:AllocCustom1>
+<ns5:AllocCustom2>110090</ns5:AllocCustom2>
+<ns5:AllocCustom4 secure="">6000</ns5:AllocCustom4>
+<ns5:AllocCustom5>INTERNAL ORDER</ns5:AllocCustom5>
+<ns5:AllocCustom6/>
+<ns5:AllocCustom7 secure="">6000</ns5:AllocCustom7>
+<ns5:AllocCustom8/>
+<ns5:AllocCustom9 secure="">6000</ns5:AllocCustom9>
+<ns5:AllocCustom10 secure="">-</ns5:AllocCustom10>
+<ns5:TotAdjustedTax secure="">92.5900</ns5:TotAdjustedTax>
+<ns5:EntryLocationData>
+<ns5:ForeignorDomesticFlag secure="">HOME</ns5:ForeignorDomesticFlag>
+</ns5:EntryLocationData>
+<ns5:JournalEntryData>
+<ns5:JournalPayerPaymentTypeName secure="">Company</ns5:JournalPayerPaymentTypeName>
+<ns5:JournalPayerPaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayerPaymentCodeName>
+<ns5:JournalPayeePaymentTypeName secure="">Employee</ns5:JournalPayeePaymentTypeName>
+<ns5:JournalPayeePaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayeePaymentCodeName>
+<ns5:JournalAccountCode SAEGLCode="56800400" AZ="0" HCP="4" TotalAttendees="4">56800400</ns5:JournalAccountCode>
+<ns5:JournalDebitOrCredit secure="">DR</ns5:JournalDebitOrCredit>
+<ns5:JournalAmnt>+100.0000</ns5:JournalAmnt>
+<ns5:JournalKey>300961E</ns5:JournalKey>
+<ns5:LocalCurrencyJournalAmnt>100.0000</ns5:LocalCurrencyJournalAmnt>
+</ns5:JournalEntryData>
+</ns5:AllocationData>
+<ns5:AllocationData IsTip="" TipVatCode="">
+<ns5:AllocKey>132846E</ns5:AllocKey>
+<ns5:AllocPercentage secure="">100.0000</ns5:AllocPercentage>
+<ns5:AllocCustom1 secure="">6000</ns5:AllocCustom1>
+<ns5:AllocCustom2>110090</ns5:AllocCustom2>
+<ns5:AllocCustom4 secure="">6000</ns5:AllocCustom4>
+<ns5:AllocCustom5>INTERNAL ORDER</ns5:AllocCustom5>
+<ns5:AllocCustom6/>
+<ns5:AllocCustom7 secure="">6000</ns5:AllocCustom7>
+<ns5:AllocCustom8/>
+<ns5:AllocCustom9 secure="">6000</ns5:AllocCustom9>
+<ns5:AllocCustom10 secure="">-</ns5:AllocCustom10>
+<ns5:EntryLocationData>
+<ns5:ForeignorDomesticFlag secure="">HOME</ns5:ForeignorDomesticFlag>
+</ns5:EntryLocationData>
+<ns5:JournalEntryData>
+<ns5:JournalPayerPaymentTypeName secure="">VAT</ns5:JournalPayerPaymentTypeName>
+<ns5:JournalPayeePaymentTypeName secure="">Company</ns5:JournalPayeePaymentTypeName>
+<ns5:JournalPayeePaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayeePaymentCodeName>
+<ns5:JournalAccountCode SAEGLCode="56800400" AZ="0" HCP="4" TotalAttendees="4"/>
+<ns5:JournalDebitOrCredit secure="">CR</ns5:JournalDebitOrCredit>
+<ns5:JournalAmnt>+7.4100</ns5:JournalAmnt>
+<ns5:JournalKey>300961E</ns5:JournalKey>
+<ns5:LocalCurrencyJournalAmnt>100.0000</ns5:LocalCurrencyJournalAmnt>
+</ns5:JournalEntryData>
+</ns5:AllocationData>
+<ns5:CarMileageData/>
+<ns5:CashAdvanceData/>
+<ns5:LocationCityName secure="">Bogota</ns5:LocationCityName>
+<ns5:IsBillable secure="">N</ns5:IsBillable>
+<ns5:LocationName secure="">Bogota</ns5:LocationName>
+<ns5:CountryCode secure="">CO</ns5:CountryCode>
+<ns5:FutureUse22 secure="">2</ns5:FutureUse22>
+</ns5:ReportEntryData>
+<ns5:ReportEntryData>
+<ns5:ReportEntryId secure="">127947</ns5:ReportEntryId>
+<ns5:RepEntryTransactionType secure="">REG</ns5:RepEntryTransactionType>
+<ns5:RepEntryExpenseTypeName secure="">Meals with Healthcare Professionals</ns5:RepEntryExpenseTypeName>
+<ns5:RepEntryTransactionDate secure="">2019-02-22T00:00:00.000+00:00</ns5:RepEntryTransactionDate>
+<ns5:RepCurrencyAlphaCode secure="">COP</ns5:RepCurrencyAlphaCode>
+<ns5:RepEntryExchangeRate secure="">1.0000</ns5:RepEntryExchangeRate>
+<ns5:ExchangeRateDirection secure="">M</ns5:ExchangeRateDirection>
+<ns5:IsPersonalFlag secure="">N</ns5:IsPersonalFlag>
+<ns5:RepEntryDescription secure="">Meal HCP</ns5:RepEntryDescription>
+<ns5:RepEntryVendorDescription secure="">vendor</ns5:RepEntryVendorDescription>
+<ns5:ReceiptReceivedFlag secure="">N</ns5:ReceiptReceivedFlag>
+<ns5:RepEntryReceiptType secure="">R</ns5:RepEntryReceiptType>
+<ns5:TotEmpAttendee secure="">1</ns5:TotEmpAttendee>
+<ns5:RepEntryOrgUnit2 secure="">110090</ns5:RepEntryOrgUnit2>
+<ns5:RepEntryOrgUnit4 secure="">6000</ns5:RepEntryOrgUnit4>
+<ns5:RepEntryOrgUnit5 secure="">INTERNAL ORDER</ns5:RepEntryOrgUnit5>
+<ns5:RepEntryCustom1 secure="">6000</ns5:RepEntryCustom1>
+<ns5:RepEntryCustom3 secure="">789</ns5:RepEntryCustom3>
+<ns5:RepEntryCustom5 secure="">123</ns5:RepEntryCustom5>
+<ns5:RepEntryCustom8 secure="">456</ns5:RepEntryCustom8>
+<ns5:RepEntryCustom10 secure="">Dinner</ns5:RepEntryCustom10>
+<ns5:RepEntryCustom11 secure="">Other</ns5:RepEntryCustom11>
+<ns5:RepEntryCustom23 secure="">6000</ns5:RepEntryCustom23>
+<ns5:RepEntryCustom24 secure="">-</ns5:RepEntryCustom24>
+<ns5:RepEntryCustom35 secure="">CO</ns5:RepEntryCustom35>
+<ns5:RepEntryCustom38>PF</ns5:RepEntryCustom38>
+<ns5:RepEntryCustom39 secure="">31.9300</ns5:RepEntryCustom39>
+<ns5:RepEntryCustom40 secure="">168.0700</ns5:RepEntryCustom40>
+<ns5:RepEntryTransactionAmnt secure="">200.0000</ns5:RepEntryTransactionAmnt>
+<ns5:RepEntryPostedAmnt secure="">200.0000</ns5:RepEntryPostedAmnt>
+<ns5:RepEntryApprovedAmnt secure="">200.0000</ns5:RepEntryApprovedAmnt>
+<ns5:PaymentTypeCode secure="">CASH</ns5:PaymentTypeCode>
+<ns5:PaymentCode secure="">Cash</ns5:PaymentCode>
+<ns5:CreditCardData/>
+<ns3:AttendeeData>
+<ns3:AttendeeKey>222058</ns3:AttendeeKey>
+<ns3:AttendeeUniqueIdentifier secure="">kftl916</ns3:AttendeeUniqueIdentifier>
+<ns3:AttendeeTypeName secure="">This Employee</ns3:AttendeeTypeName>
+<ns3:AttendeeTypeCode secure="">SYSEMP</ns3:AttendeeTypeCode>
+<ns3:AttendeeLastName secure="">ARDILA GUEVARA</ns3:AttendeeLastName>
+<ns3:AttendeeFirstName secure="">JAVIER HUMBERTO</ns3:AttendeeFirstName>
+<ns3:AttendeeYear-To-DateAmount secure="">0.00</ns3:AttendeeYear-To-DateAmount>
+<ns3:AttendeePreviousYearAmount secure="">0.00</ns3:AttendeePreviousYearAmount>
+<ns3:CurrencyAlphaCodeofAttendeeCurrency secure="">COP</ns3:CurrencyAlphaCodeofAttendeeCurrency>
+<ns3:AttendeeTransactionAmount secure="">100.00</ns3:AttendeeTransactionAmount>
+<ns3:AttendeeApprovedAmountinReimbursementCurrency secure="">100.00</ns3:AttendeeApprovedAmountinReimbursementCurrency>
+<ns3:AttendeeApprovedAmountinAttendeeCurrency secure="">100.00</ns3:AttendeeApprovedAmountinAttendeeCurrency>
+<ns3:AttendeeInstanceCount secure="">1</ns3:AttendeeInstanceCount>
+<ns3:AttendeeAmountIsEdited secure="">N</ns3:AttendeeAmountIsEdited>
+<ns3:ExpenseLocationCountryCode secure="">CO</ns3:ExpenseLocationCountryCode>
+<ns3:ExpenseLocationCityName secure="">Bogota</ns3:ExpenseLocationCityName>
+</ns3:AttendeeData>
+<ns3:AttendeeData>
+<ns3:AttendeeKey>222058</ns3:AttendeeKey>
+<ns3:AttendeeUniqueIdentifier secure="">kftl916</ns3:AttendeeUniqueIdentifier>
+<ns3:AttendeeTypeName secure="">This Employee</ns3:AttendeeTypeName>
+<ns3:AttendeeTypeCode secure="">SYSEMP</ns3:AttendeeTypeCode>
+<ns3:AttendeeLastName secure="">ARDILA GUEVARA</ns3:AttendeeLastName>
+<ns3:AttendeeFirstName secure="">JAVIER HUMBERTO</ns3:AttendeeFirstName>
+<ns3:AttendeeYear-To-DateAmount secure="">0.00</ns3:AttendeeYear-To-DateAmount>
+<ns3:AttendeePreviousYearAmount secure="">0.00</ns3:AttendeePreviousYearAmount>
+<ns3:CurrencyAlphaCodeofAttendeeCurrency secure="">COP</ns3:CurrencyAlphaCodeofAttendeeCurrency>
+<ns3:AttendeeTransactionAmount secure="">100.00</ns3:AttendeeTransactionAmount>
+<ns3:AttendeeApprovedAmountinReimbursementCurrency secure="">100.00</ns3:AttendeeApprovedAmountinReimbursementCurrency>
+<ns3:AttendeeApprovedAmountinAttendeeCurrency secure="">100.00</ns3:AttendeeApprovedAmountinAttendeeCurrency>
+<ns3:AttendeeInstanceCount secure="">1</ns3:AttendeeInstanceCount>
+<ns3:AttendeeAmountIsEdited secure="">N</ns3:AttendeeAmountIsEdited>
+<ns3:ExpenseLocationCountryCode secure="">CO</ns3:ExpenseLocationCountryCode>
+<ns3:ExpenseLocationCityName secure="">Bogota</ns3:ExpenseLocationCityName>
+</ns3:AttendeeData>
+<ns3:AttendeeData>
+<ns3:AttendeeKey>222060</ns3:AttendeeKey>
+<ns3:AttendeeUniqueIdentifier secure="">CO1002|-</ns3:AttendeeUniqueIdentifier>
+<ns3:AttendeeTypeName secure="">Health Care Professional (CO)</ns3:AttendeeTypeName>
+<ns3:AttendeeTypeCode secure="">HCPCO</ns3:AttendeeTypeCode>
+<ns3:AttendeeLastName secure="">SANITAS PLUS CHAPINERO</ns3:AttendeeLastName>
+<ns3:AttendeeFirstName secure="">ENCARGADO DE FARMACIA</ns3:AttendeeFirstName>
+<ns3:AttendeeCompanyName secure="">SANITAS PLUS CHAPINERO</ns3:AttendeeCompanyName>
+<ns3:AttendeeTitle secure="">Dr.</ns3:AttendeeTitle>
+<ns3:AttendeeYear-To-DateAmount secure="">0.00</ns3:AttendeeYear-To-DateAmount>
+<ns3:AttendeePreviousYearAmount secure="">0.00</ns3:AttendeePreviousYearAmount>
+<ns3:CurrencyAlphaCodeofAttendeeCurrency secure="">USD</ns3:CurrencyAlphaCodeofAttendeeCurrency>
+<ns3:AttendeeCustom7 secure="">-</ns3:AttendeeCustom7>
+<ns3:AttendeeCustom8 secure="">-</ns3:AttendeeCustom8>
+<ns3:AttendeeCustom9 secure="">PHTE</ns3:AttendeeCustom9>
+<ns3:AttendeeCustom14 secure="">-</ns3:AttendeeCustom14>
+<ns3:AttendeeCustom15 secure="">CRA 7 57 68</ns3:AttendeeCustom15>
+<ns3:AttendeeCustom18 secure="">BOGOTA</ns3:AttendeeCustom18>
+<ns3:AttendeeTransactionAmount secure="">100.00</ns3:AttendeeTransactionAmount>
+<ns3:AttendeeApprovedAmountinReimbursementCurrency secure="">100.00</ns3:AttendeeApprovedAmountinReimbursementCurrency>
+<ns3:AttendeeApprovedAmountinAttendeeCurrency secure="">0.03</ns3:AttendeeApprovedAmountinAttendeeCurrency>
+<ns3:AttendeeInstanceCount secure="">1</ns3:AttendeeInstanceCount>
+<ns3:AttendeeAmountIsEdited secure="">N</ns3:AttendeeAmountIsEdited>
+<ns3:ExpenseLocationCountryCode secure="">CO</ns3:ExpenseLocationCountryCode>
+<ns3:ExpenseLocationCityName secure="">Bogota</ns3:ExpenseLocationCityName>
+<ns3:AttendeeCustom25 secure="">-</ns3:AttendeeCustom25>
+</ns3:AttendeeData>
+<ns3:AttendeeData>
+<ns3:AttendeeKey>222060</ns3:AttendeeKey>
+<ns3:AttendeeUniqueIdentifier secure="">CO1002|-</ns3:AttendeeUniqueIdentifier>
+<ns3:AttendeeTypeName secure="">Health Care Professional (CO)</ns3:AttendeeTypeName>
+<ns3:AttendeeTypeCode secure="">HCPCO</ns3:AttendeeTypeCode>
+<ns3:AttendeeLastName secure="">SANITAS PLUS CHAPINERO</ns3:AttendeeLastName>
+<ns3:AttendeeFirstName secure="">ENCARGADO DE FARMACIA</ns3:AttendeeFirstName>
+<ns3:AttendeeCompanyName secure="">SANITAS PLUS CHAPINERO</ns3:AttendeeCompanyName>
+<ns3:AttendeeTitle secure="">Dr.</ns3:AttendeeTitle>
+<ns3:AttendeeYear-To-DateAmount secure="">0.00</ns3:AttendeeYear-To-DateAmount>
+<ns3:AttendeePreviousYearAmount secure="">0.00</ns3:AttendeePreviousYearAmount>
+<ns3:CurrencyAlphaCodeofAttendeeCurrency secure="">USD</ns3:CurrencyAlphaCodeofAttendeeCurrency>
+<ns3:AttendeeCustom7 secure="">-</ns3:AttendeeCustom7>
+<ns3:AttendeeCustom8 secure="">-</ns3:AttendeeCustom8>
+<ns3:AttendeeCustom9 secure="">PHTE</ns3:AttendeeCustom9>
+<ns3:AttendeeCustom14 secure="">-</ns3:AttendeeCustom14>
+<ns3:AttendeeCustom15 secure="">CRA 7 57 68</ns3:AttendeeCustom15>
+<ns3:AttendeeCustom18 secure="">BOGOTA</ns3:AttendeeCustom18>
+<ns3:AttendeeTransactionAmount secure="">100.00</ns3:AttendeeTransactionAmount>
+<ns3:AttendeeApprovedAmountinReimbursementCurrency secure="">100.00</ns3:AttendeeApprovedAmountinReimbursementCurrency>
+<ns3:AttendeeApprovedAmountinAttendeeCurrency secure="">0.03</ns3:AttendeeApprovedAmountinAttendeeCurrency>
+<ns3:AttendeeInstanceCount secure="">1</ns3:AttendeeInstanceCount>
+<ns3:AttendeeAmountIsEdited secure="">N</ns3:AttendeeAmountIsEdited>
+<ns3:ExpenseLocationCountryCode secure="">CO</ns3:ExpenseLocationCountryCode>
+<ns3:ExpenseLocationCityName secure="">Bogota</ns3:ExpenseLocationCityName>
+<ns3:AttendeeCustom25 secure="">-</ns3:AttendeeCustom25>
+</ns3:AttendeeData>
+<ns5:AllocationData IsTip="" TipVatCode="">
+<ns5:AllocKey>132847E</ns5:AllocKey>
+<ns5:AllocPercentage secure="">100.0000</ns5:AllocPercentage>
+<ns5:AllocCustom1 secure="">6000</ns5:AllocCustom1>
+<ns5:AllocCustom2>110090</ns5:AllocCustom2>
+<ns5:AllocCustom4 secure="">6000</ns5:AllocCustom4>
+<ns5:AllocCustom5>INTERNAL ORDER</ns5:AllocCustom5>
+<ns5:AllocCustom6/>
+<ns5:AllocCustom7 secure="">6000</ns5:AllocCustom7>
+<ns5:AllocCustom8/>
+<ns5:AllocCustom9 secure="">6000</ns5:AllocCustom9>
+<ns5:AllocCustom10 secure="">-</ns5:AllocCustom10>
+<ns5:TotAdjustedTax secure="">168.0700</ns5:TotAdjustedTax>
+<ns5:EntryLocationData>
+<ns5:ForeignorDomesticFlag secure="">HOME</ns5:ForeignorDomesticFlag>
+</ns5:EntryLocationData>
+<ns5:JournalEntryData>
+<ns5:JournalPayerPaymentTypeName secure="">Company</ns5:JournalPayerPaymentTypeName>
+<ns5:JournalPayerPaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayerPaymentCodeName>
+<ns5:JournalPayeePaymentTypeName secure="">Employee</ns5:JournalPayeePaymentTypeName>
+<ns5:JournalPayeePaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayeePaymentCodeName>
+<ns5:JournalAccountCode SAEGLCode="56800400" AZ="0" HCP="4" TotalAttendees="4">56800400</ns5:JournalAccountCode>
+<ns5:JournalDebitOrCredit secure="">DR</ns5:JournalDebitOrCredit>
+<ns5:JournalAmnt>+200.0000</ns5:JournalAmnt>
+<ns5:JournalKey>300962E</ns5:JournalKey>
+<ns5:LocalCurrencyJournalAmnt>200.0000</ns5:LocalCurrencyJournalAmnt>
+</ns5:JournalEntryData>
+</ns5:AllocationData>
+<ns5:AllocationData IsTip="" TipVatCode="">
+<ns5:AllocKey>132847E</ns5:AllocKey>
+<ns5:AllocPercentage secure="">100.0000</ns5:AllocPercentage>
+<ns5:AllocCustom1 secure="">6000</ns5:AllocCustom1>
+<ns5:AllocCustom2>110090</ns5:AllocCustom2>
+<ns5:AllocCustom4 secure="">6000</ns5:AllocCustom4>
+<ns5:AllocCustom5>INTERNAL ORDER</ns5:AllocCustom5>
+<ns5:AllocCustom6/>
+<ns5:AllocCustom7 secure="">6000</ns5:AllocCustom7>
+<ns5:AllocCustom8/>
+<ns5:AllocCustom9 secure="">6000</ns5:AllocCustom9>
+<ns5:AllocCustom10 secure="">-</ns5:AllocCustom10>
+<ns5:EntryLocationData>
+<ns5:ForeignorDomesticFlag secure="">HOME</ns5:ForeignorDomesticFlag>
+</ns5:EntryLocationData>
+<ns5:JournalEntryData>
+<ns5:JournalPayerPaymentTypeName secure="">VAT</ns5:JournalPayerPaymentTypeName>
+<ns5:JournalPayeePaymentTypeName secure="">Company</ns5:JournalPayeePaymentTypeName>
+<ns5:JournalPayeePaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayeePaymentCodeName>
+<ns5:JournalAccountCode SAEGLCode="56800400" AZ="0" HCP="4" TotalAttendees="4"/>
+<ns5:JournalDebitOrCredit secure="">CR</ns5:JournalDebitOrCredit>
+<ns5:JournalAmnt>+31.9300</ns5:JournalAmnt>
+<ns5:JournalKey>300962E</ns5:JournalKey>
+<ns5:LocalCurrencyJournalAmnt>200.0000</ns5:LocalCurrencyJournalAmnt>
+</ns5:JournalEntryData>
+</ns5:AllocationData>
+<ns5:AllocationData IsTip="" TipVatCode="">
+<ns5:AllocKey>132847E</ns5:AllocKey>
+<ns5:AllocPercentage secure="">100.0000</ns5:AllocPercentage>
+<ns5:AllocCustom1 secure="">6000</ns5:AllocCustom1>
+<ns5:AllocCustom2>110090</ns5:AllocCustom2>
+<ns5:AllocCustom4 secure="">6000</ns5:AllocCustom4>
+<ns5:AllocCustom5>INTERNAL ORDER</ns5:AllocCustom5>
+<ns5:AllocCustom6/>
+<ns5:AllocCustom7 secure="">6000</ns5:AllocCustom7>
+<ns5:AllocCustom8/>
+<ns5:AllocCustom9 secure="">6000</ns5:AllocCustom9>
+<ns5:AllocCustom10 secure="">-</ns5:AllocCustom10>
+<ns5:TotAdjustedTax secure="">168.0700</ns5:TotAdjustedTax>
+<ns5:EntryLocationData>
+<ns5:ForeignorDomesticFlag secure="">HOME</ns5:ForeignorDomesticFlag>
+</ns5:EntryLocationData>
+<ns5:JournalEntryData>
+<ns5:JournalPayerPaymentTypeName secure="">Company</ns5:JournalPayerPaymentTypeName>
+<ns5:JournalPayerPaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayerPaymentCodeName>
+<ns5:JournalPayeePaymentTypeName secure="">Employee</ns5:JournalPayeePaymentTypeName>
+<ns5:JournalPayeePaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayeePaymentCodeName>
+<ns5:JournalAccountCode SAEGLCode="56800400" AZ="0" HCP="4" TotalAttendees="4">56800400</ns5:JournalAccountCode>
+<ns5:JournalDebitOrCredit secure="">DR</ns5:JournalDebitOrCredit>
+<ns5:JournalAmnt>+200.0000</ns5:JournalAmnt>
+<ns5:JournalKey>300962E</ns5:JournalKey>
+<ns5:LocalCurrencyJournalAmnt>200.0000</ns5:LocalCurrencyJournalAmnt>
+</ns5:JournalEntryData>
+</ns5:AllocationData>
+<ns5:AllocationData IsTip="" TipVatCode="">
+<ns5:AllocKey>132847E</ns5:AllocKey>
+<ns5:AllocPercentage secure="">100.0000</ns5:AllocPercentage>
+<ns5:AllocCustom1 secure="">6000</ns5:AllocCustom1>
+<ns5:AllocCustom2>110090</ns5:AllocCustom2>
+<ns5:AllocCustom4 secure="">6000</ns5:AllocCustom4>
+<ns5:AllocCustom5>INTERNAL ORDER</ns5:AllocCustom5>
+<ns5:AllocCustom6/>
+<ns5:AllocCustom7 secure="">6000</ns5:AllocCustom7>
+<ns5:AllocCustom8/>
+<ns5:AllocCustom9 secure="">6000</ns5:AllocCustom9>
+<ns5:AllocCustom10 secure="">-</ns5:AllocCustom10>
+<ns5:EntryLocationData>
+<ns5:ForeignorDomesticFlag secure="">HOME</ns5:ForeignorDomesticFlag>
+</ns5:EntryLocationData>
+<ns5:JournalEntryData>
+<ns5:JournalPayerPaymentTypeName secure="">VAT</ns5:JournalPayerPaymentTypeName>
+<ns5:JournalPayeePaymentTypeName secure="">Company</ns5:JournalPayeePaymentTypeName>
+<ns5:JournalPayeePaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayeePaymentCodeName>
+<ns5:JournalAccountCode SAEGLCode="56800400" AZ="0" HCP="4" TotalAttendees="4"/>
+<ns5:JournalDebitOrCredit secure="">CR</ns5:JournalDebitOrCredit>
+<ns5:JournalAmnt>+31.9300</ns5:JournalAmnt>
+<ns5:JournalKey>300962E</ns5:JournalKey>
+<ns5:LocalCurrencyJournalAmnt>200.0000</ns5:LocalCurrencyJournalAmnt>
+</ns5:JournalEntryData>
+</ns5:AllocationData>
+<ns5:CarMileageData/>
+<ns5:CashAdvanceData/>
+<ns5:LocationCityName secure="">Bogota</ns5:LocationCityName>
+<ns5:IsBillable secure="">N</ns5:IsBillable>
+<ns5:LocationName secure="">Bogota</ns5:LocationName>
+<ns5:CountryCode secure="">CO</ns5:CountryCode>
+<ns5:FutureUse22 secure="">2</ns5:FutureUse22>
+</ns5:ReportEntryData>
+<ns5:ReportEntryData>
+<ns5:ReportEntryId secure="">127948</ns5:ReportEntryId>
+<ns5:RepEntryTransactionType secure="">REG</ns5:RepEntryTransactionType>
+<ns5:RepEntryExpenseTypeName secure="">Non-Employee Travel</ns5:RepEntryExpenseTypeName>
+<ns5:RepEntryTransactionDate secure="">2019-02-22T00:00:00.000+00:00</ns5:RepEntryTransactionDate>
+<ns5:RepCurrencyAlphaCode secure="">COP</ns5:RepCurrencyAlphaCode>
+<ns5:RepEntryExchangeRate secure="">1.0000</ns5:RepEntryExchangeRate>
+<ns5:ExchangeRateDirection secure="">M</ns5:ExchangeRateDirection>
+<ns5:IsPersonalFlag secure="">N</ns5:IsPersonalFlag>
+<ns5:RepEntryDescription secure="">hcp travel</ns5:RepEntryDescription>
+<ns5:RepEntryVendorDescription secure="">100</ns5:RepEntryVendorDescription>
+<ns5:ReceiptReceivedFlag secure="">N</ns5:ReceiptReceivedFlag>
+<ns5:RepEntryReceiptType secure="">R</ns5:RepEntryReceiptType>
+<ns5:RepEntryOrgUnit2 secure="">110090</ns5:RepEntryOrgUnit2>
+<ns5:RepEntryOrgUnit4 secure="">6000</ns5:RepEntryOrgUnit4>
+<ns5:RepEntryOrgUnit5 secure="">INTERNAL ORDER</ns5:RepEntryOrgUnit5>
+<ns5:RepEntryCustom1 secure="">6000</ns5:RepEntryCustom1>
+<ns5:RepEntryCustom3 secure="">123</ns5:RepEntryCustom3>
+<ns5:RepEntryCustom5 secure="">456</ns5:RepEntryCustom5>
+<ns5:RepEntryCustom8 secure="">789</ns5:RepEntryCustom8>
+<ns5:RepEntryCustom11 secure="">Other</ns5:RepEntryCustom11>
+<ns5:RepEntryCustom23 secure="">6000</ns5:RepEntryCustom23>
+<ns5:RepEntryCustom24 secure="">-</ns5:RepEntryCustom24>
+<ns5:RepEntryCustom35 secure="">CO</ns5:RepEntryCustom35>
+<ns5:RepEntryCustom38>P1</ns5:RepEntryCustom38>
+<ns5:RepEntryCustom39 secure="">13.7900</ns5:RepEntryCustom39>
+<ns5:RepEntryCustom40 secure="">86.2100</ns5:RepEntryCustom40>
+<ns5:RepEntryTransactionAmnt secure="">100.0000</ns5:RepEntryTransactionAmnt>
+<ns5:RepEntryPostedAmnt secure="">100.0000</ns5:RepEntryPostedAmnt>
+<ns5:RepEntryApprovedAmnt secure="">100.0000</ns5:RepEntryApprovedAmnt>
+<ns5:PaymentTypeCode secure="">CASH</ns5:PaymentTypeCode>
+<ns5:PaymentCode secure="">Cash</ns5:PaymentCode>
+<ns5:CreditCardData/>
+<ns3:AttendeeData>
+<ns3:AttendeeKey>222061</ns3:AttendeeKey>
+<ns3:AttendeeUniqueIdentifier secure="">CO11120|-</ns3:AttendeeUniqueIdentifier>
+<ns3:AttendeeTypeName secure="">Health Care Professional (CO)</ns3:AttendeeTypeName>
+<ns3:AttendeeTypeCode secure="">HCPCO</ns3:AttendeeTypeCode>
+<ns3:AttendeeLastName secure="">BELTRAN MELO</ns3:AttendeeLastName>
+<ns3:AttendeeFirstName secure="">DIANA</ns3:AttendeeFirstName>
+<ns3:AttendeeCompanyName secure="">LIGA CONTRA LA EPILEPSIA</ns3:AttendeeCompanyName>
+<ns3:AttendeeTitle secure="">Dr.</ns3:AttendeeTitle>
+<ns3:AttendeeYear-To-DateAmount secure="">0.00</ns3:AttendeeYear-To-DateAmount>
+<ns3:AttendeePreviousYearAmount secure="">0.00</ns3:AttendeePreviousYearAmount>
+<ns3:CurrencyAlphaCodeofAttendeeCurrency secure="">USD</ns3:CurrencyAlphaCodeofAttendeeCurrency>
+<ns3:AttendeeCustom7 secure="">-</ns3:AttendeeCustom7>
+<ns3:AttendeeCustom8 secure="">-</ns3:AttendeeCustom8>
+<ns3:AttendeeCustom9 secure="">PHYS</ns3:AttendeeCustom9>
+<ns3:AttendeeCustom14 secure="">-</ns3:AttendeeCustom14>
+<ns3:AttendeeCustom15 secure="">CL 35 N.17-48</ns3:AttendeeCustom15>
+<ns3:AttendeeCustom18 secure="">BOGOTA</ns3:AttendeeCustom18>
+<ns3:AttendeeTransactionAmount secure="">100.00</ns3:AttendeeTransactionAmount>
+<ns3:AttendeeApprovedAmountinReimbursementCurrency secure="">100.00</ns3:AttendeeApprovedAmountinReimbursementCurrency>
+<ns3:AttendeeApprovedAmountinAttendeeCurrency secure="">0.03</ns3:AttendeeApprovedAmountinAttendeeCurrency>
+<ns3:AttendeeInstanceCount secure="">1</ns3:AttendeeInstanceCount>
+<ns3:AttendeeAmountIsEdited secure="">N</ns3:AttendeeAmountIsEdited>
+<ns3:ExpenseLocationCountryCode secure="">CO</ns3:ExpenseLocationCountryCode>
+<ns3:ExpenseLocationCityName secure="">Bogota</ns3:ExpenseLocationCityName>
+<ns3:AttendeeCustom25 secure="">-</ns3:AttendeeCustom25>
+</ns3:AttendeeData>
+<ns3:AttendeeData>
+<ns3:AttendeeKey>222061</ns3:AttendeeKey>
+<ns3:AttendeeUniqueIdentifier secure="">CO11120|-</ns3:AttendeeUniqueIdentifier>
+<ns3:AttendeeTypeName secure="">Health Care Professional (CO)</ns3:AttendeeTypeName>
+<ns3:AttendeeTypeCode secure="">HCPCO</ns3:AttendeeTypeCode>
+<ns3:AttendeeLastName secure="">BELTRAN MELO</ns3:AttendeeLastName>
+<ns3:AttendeeFirstName secure="">DIANA</ns3:AttendeeFirstName>
+<ns3:AttendeeCompanyName secure="">LIGA CONTRA LA EPILEPSIA</ns3:AttendeeCompanyName>
+<ns3:AttendeeTitle secure="">Dr.</ns3:AttendeeTitle>
+<ns3:AttendeeYear-To-DateAmount secure="">0.00</ns3:AttendeeYear-To-DateAmount>
+<ns3:AttendeePreviousYearAmount secure="">0.00</ns3:AttendeePreviousYearAmount>
+<ns3:CurrencyAlphaCodeofAttendeeCurrency secure="">USD</ns3:CurrencyAlphaCodeofAttendeeCurrency>
+<ns3:AttendeeCustom7 secure="">-</ns3:AttendeeCustom7>
+<ns3:AttendeeCustom8 secure="">-</ns3:AttendeeCustom8>
+<ns3:AttendeeCustom9 secure="">PHYS</ns3:AttendeeCustom9>
+<ns3:AttendeeCustom14 secure="">-</ns3:AttendeeCustom14>
+<ns3:AttendeeCustom15 secure="">CL 35 N.17-48</ns3:AttendeeCustom15>
+<ns3:AttendeeCustom18 secure="">BOGOTA</ns3:AttendeeCustom18>
+<ns3:AttendeeTransactionAmount secure="">100.00</ns3:AttendeeTransactionAmount>
+<ns3:AttendeeApprovedAmountinReimbursementCurrency secure="">100.00</ns3:AttendeeApprovedAmountinReimbursementCurrency>
+<ns3:AttendeeApprovedAmountinAttendeeCurrency secure="">0.03</ns3:AttendeeApprovedAmountinAttendeeCurrency>
+<ns3:AttendeeInstanceCount secure="">1</ns3:AttendeeInstanceCount>
+<ns3:AttendeeAmountIsEdited secure="">N</ns3:AttendeeAmountIsEdited>
+<ns3:ExpenseLocationCountryCode secure="">CO</ns3:ExpenseLocationCountryCode>
+<ns3:ExpenseLocationCityName secure="">Bogota</ns3:ExpenseLocationCityName>
+<ns3:AttendeeCustom25 secure="">-</ns3:AttendeeCustom25>
+</ns3:AttendeeData>
+<ns5:AllocationData IsTip="" TipVatCode="">
+<ns5:AllocKey>132848</ns5:AllocKey>
+<ns5:AllocPercentage secure="">100.0000</ns5:AllocPercentage>
+<ns5:AllocCustom1 secure="">6000</ns5:AllocCustom1>
+<ns5:AllocCustom2>110090</ns5:AllocCustom2>
+<ns5:AllocCustom4 secure="">6000</ns5:AllocCustom4>
+<ns5:AllocCustom5>INTERNAL ORDER</ns5:AllocCustom5>
+<ns5:AllocCustom6/>
+<ns5:AllocCustom7 secure="">6000</ns5:AllocCustom7>
+<ns5:AllocCustom8/>
+<ns5:AllocCustom9 secure="">6000</ns5:AllocCustom9>
+<ns5:AllocCustom10 secure="">-</ns5:AllocCustom10>
+<ns5:TotAdjustedTax secure="">86.2100</ns5:TotAdjustedTax>
+<ns5:EntryLocationData>
+<ns5:ForeignorDomesticFlag secure="">HOME</ns5:ForeignorDomesticFlag>
+</ns5:EntryLocationData>
+<ns5:JournalEntryData>
+<ns5:JournalPayerPaymentTypeName secure="">Company</ns5:JournalPayerPaymentTypeName>
+<ns5:JournalPayerPaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayerPaymentCodeName>
+<ns5:JournalPayeePaymentTypeName secure="">Employee</ns5:JournalPayeePaymentTypeName>
+<ns5:JournalPayeePaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayeePaymentCodeName>
+<ns5:JournalAccountCode SAEGLCode="56550120" AZ="0" HCP="0" TotalAttendees="0">56550120</ns5:JournalAccountCode>
+<ns5:JournalDebitOrCredit secure="">DR</ns5:JournalDebitOrCredit>
+<ns5:JournalAmnt>+100.0000</ns5:JournalAmnt>
+<ns5:JournalKey>300963</ns5:JournalKey>
+<ns5:LocalCurrencyJournalAmnt>100.0000</ns5:LocalCurrencyJournalAmnt>
+</ns5:JournalEntryData>
+</ns5:AllocationData>
+<ns5:AllocationData IsTip="" TipVatCode="">
+<ns5:AllocKey>132848</ns5:AllocKey>
+<ns5:AllocPercentage secure="">100.0000</ns5:AllocPercentage>
+<ns5:AllocCustom1 secure="">6000</ns5:AllocCustom1>
+<ns5:AllocCustom2>110090</ns5:AllocCustom2>
+<ns5:AllocCustom4 secure="">6000</ns5:AllocCustom4>
+<ns5:AllocCustom5>INTERNAL ORDER</ns5:AllocCustom5>
+<ns5:AllocCustom6/>
+<ns5:AllocCustom7 secure="">6000</ns5:AllocCustom7>
+<ns5:AllocCustom8/>
+<ns5:AllocCustom9 secure="">6000</ns5:AllocCustom9>
+<ns5:AllocCustom10 secure="">-</ns5:AllocCustom10>
+<ns5:EntryLocationData>
+<ns5:ForeignorDomesticFlag secure="">HOME</ns5:ForeignorDomesticFlag>
+</ns5:EntryLocationData>
+<ns5:JournalEntryData>
+<ns5:JournalPayerPaymentTypeName secure="">VAT</ns5:JournalPayerPaymentTypeName>
+<ns5:JournalPayeePaymentTypeName secure="">Company</ns5:JournalPayeePaymentTypeName>
+<ns5:JournalPayeePaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayeePaymentCodeName>
+<ns5:JournalAccountCode SAEGLCode="56550120" AZ="0" HCP="0" TotalAttendees="0"/>
+<ns5:JournalDebitOrCredit secure="">CR</ns5:JournalDebitOrCredit>
+<ns5:JournalAmnt>+13.7900</ns5:JournalAmnt>
+<ns5:JournalKey>300963</ns5:JournalKey>
+<ns5:LocalCurrencyJournalAmnt>100.0000</ns5:LocalCurrencyJournalAmnt>
+</ns5:JournalEntryData>
+</ns5:AllocationData>
+<ns5:CarMileageData/>
+<ns5:CashAdvanceData/>
+<ns5:LocationCityName secure="">Bogota</ns5:LocationCityName>
+<ns5:IsBillable secure="">N</ns5:IsBillable>
+<ns5:LocationName secure="">Bogota</ns5:LocationName>
+<ns5:CountryCode secure="">CO</ns5:CountryCode>
+<ns5:FutureUse22 secure="">1</ns5:FutureUse22>
+</ns5:ReportEntryData>
+<ns5:ReportEntryData>
+<ns5:ReportEntryId secure="">127949</ns5:ReportEntryId>
+<ns5:RepEntryTransactionType secure="">REG</ns5:RepEntryTransactionType>
+<ns5:RepEntryExpenseTypeName secure="">Meals with Healthcare Professionals</ns5:RepEntryExpenseTypeName>
+<ns5:RepEntryTransactionDate secure="">2019-02-22T00:00:00.000+00:00</ns5:RepEntryTransactionDate>
+<ns5:RepCurrencyAlphaCode secure="">COP</ns5:RepCurrencyAlphaCode>
+<ns5:RepEntryExchangeRate secure="">1.0000</ns5:RepEntryExchangeRate>
+<ns5:ExchangeRateDirection secure="">M</ns5:ExchangeRateDirection>
+<ns5:IsPersonalFlag secure="">N</ns5:IsPersonalFlag>
+<ns5:RepEntryDescription secure="">purpose</ns5:RepEntryDescription>
+<ns5:RepEntryVendorDescription secure="">vendor</ns5:RepEntryVendorDescription>
+<ns5:ReceiptReceivedFlag secure="">N</ns5:ReceiptReceivedFlag>
+<ns5:RepEntryReceiptType secure="">R</ns5:RepEntryReceiptType>
+<ns5:TotEmpAttendee secure="">1</ns5:TotEmpAttendee>
+<ns5:RepEntryOrgUnit2 secure="">110090</ns5:RepEntryOrgUnit2>
+<ns5:RepEntryOrgUnit4 secure="">6000</ns5:RepEntryOrgUnit4>
+<ns5:RepEntryOrgUnit5 secure="">INTERNAL ORDER</ns5:RepEntryOrgUnit5>
+<ns5:RepEntryCustom1 secure="">6000</ns5:RepEntryCustom1>
+<ns5:RepEntryCustom3 secure="">123</ns5:RepEntryCustom3>
+<ns5:RepEntryCustom5 secure="">456</ns5:RepEntryCustom5>
+<ns5:RepEntryCustom8 secure="">789</ns5:RepEntryCustom8>
+<ns5:RepEntryCustom10 secure="">Coffee service</ns5:RepEntryCustom10>
+<ns5:RepEntryCustom11 secure="">Other</ns5:RepEntryCustom11>
+<ns5:RepEntryCustom23 secure="">6000</ns5:RepEntryCustom23>
+<ns5:RepEntryCustom24 secure="">-</ns5:RepEntryCustom24>
+<ns5:RepEntryCustom35 secure="">CO</ns5:RepEntryCustom35>
+<ns5:RepEntryCustom38>PF</ns5:RepEntryCustom38>
+<ns5:RepEntryCustom39 secure="">37.5200</ns5:RepEntryCustom39>
+<ns5:RepEntryCustom40 secure="">197.4800</ns5:RepEntryCustom40>
+<ns5:RepEntryTransactionAmnt secure="">235.0000</ns5:RepEntryTransactionAmnt>
+<ns5:RepEntryPostedAmnt secure="">235.0000</ns5:RepEntryPostedAmnt>
+<ns5:RepEntryApprovedAmnt secure="">235.0000</ns5:RepEntryApprovedAmnt>
+<ns5:PaymentTypeCode secure="">CASH</ns5:PaymentTypeCode>
+<ns5:PaymentCode secure="">Cash</ns5:PaymentCode>
+<ns5:CreditCardData/>
+<ns3:AttendeeData>
+<ns3:AttendeeKey>222058</ns3:AttendeeKey>
+<ns3:AttendeeUniqueIdentifier secure="">kftl916</ns3:AttendeeUniqueIdentifier>
+<ns3:AttendeeTypeName secure="">This Employee</ns3:AttendeeTypeName>
+<ns3:AttendeeTypeCode secure="">SYSEMP</ns3:AttendeeTypeCode>
+<ns3:AttendeeLastName secure="">ARDILA GUEVARA</ns3:AttendeeLastName>
+<ns3:AttendeeFirstName secure="">JAVIER HUMBERTO</ns3:AttendeeFirstName>
+<ns3:AttendeeYear-To-DateAmount secure="">0.00</ns3:AttendeeYear-To-DateAmount>
+<ns3:AttendeePreviousYearAmount secure="">0.00</ns3:AttendeePreviousYearAmount>
+<ns3:CurrencyAlphaCodeofAttendeeCurrency secure="">COP</ns3:CurrencyAlphaCodeofAttendeeCurrency>
+<ns3:AttendeeTransactionAmount secure="">117.50</ns3:AttendeeTransactionAmount>
+<ns3:AttendeeApprovedAmountinReimbursementCurrency secure="">117.50</ns3:AttendeeApprovedAmountinReimbursementCurrency>
+<ns3:AttendeeApprovedAmountinAttendeeCurrency secure="">117.50</ns3:AttendeeApprovedAmountinAttendeeCurrency>
+<ns3:AttendeeInstanceCount secure="">1</ns3:AttendeeInstanceCount>
+<ns3:AttendeeAmountIsEdited secure="">N</ns3:AttendeeAmountIsEdited>
+<ns3:ExpenseLocationCountryCode secure="">CO</ns3:ExpenseLocationCountryCode>
+<ns3:ExpenseLocationCityName secure="">Bogota</ns3:ExpenseLocationCityName>
+</ns3:AttendeeData>
+<ns3:AttendeeData>
+<ns3:AttendeeKey>222058</ns3:AttendeeKey>
+<ns3:AttendeeUniqueIdentifier secure="">kftl916</ns3:AttendeeUniqueIdentifier>
+<ns3:AttendeeTypeName secure="">This Employee</ns3:AttendeeTypeName>
+<ns3:AttendeeTypeCode secure="">SYSEMP</ns3:AttendeeTypeCode>
+<ns3:AttendeeLastName secure="">ARDILA GUEVARA</ns3:AttendeeLastName>
+<ns3:AttendeeFirstName secure="">JAVIER HUMBERTO</ns3:AttendeeFirstName>
+<ns3:AttendeeYear-To-DateAmount secure="">0.00</ns3:AttendeeYear-To-DateAmount>
+<ns3:AttendeePreviousYearAmount secure="">0.00</ns3:AttendeePreviousYearAmount>
+<ns3:CurrencyAlphaCodeofAttendeeCurrency secure="">COP</ns3:CurrencyAlphaCodeofAttendeeCurrency>
+<ns3:AttendeeTransactionAmount secure="">117.50</ns3:AttendeeTransactionAmount>
+<ns3:AttendeeApprovedAmountinReimbursementCurrency secure="">117.50</ns3:AttendeeApprovedAmountinReimbursementCurrency>
+<ns3:AttendeeApprovedAmountinAttendeeCurrency secure="">117.50</ns3:AttendeeApprovedAmountinAttendeeCurrency>
+<ns3:AttendeeInstanceCount secure="">1</ns3:AttendeeInstanceCount>
+<ns3:AttendeeAmountIsEdited secure="">N</ns3:AttendeeAmountIsEdited>
+<ns3:ExpenseLocationCountryCode secure="">CO</ns3:ExpenseLocationCountryCode>
+<ns3:ExpenseLocationCityName secure="">Bogota</ns3:ExpenseLocationCityName>
+</ns3:AttendeeData>
+<ns3:AttendeeData>
+<ns3:AttendeeKey>222062</ns3:AttendeeKey>
+<ns3:AttendeeUniqueIdentifier secure="">CO1003|-</ns3:AttendeeUniqueIdentifier>
+<ns3:AttendeeTypeName secure="">Health Care Professional (CO)</ns3:AttendeeTypeName>
+<ns3:AttendeeTypeCode secure="">HCPCO</ns3:AttendeeTypeCode>
+<ns3:AttendeeLastName secure="">D CASTILLO</ns3:AttendeeLastName>
+<ns3:AttendeeFirstName secure="">ENCARGADO DE FARMACIA</ns3:AttendeeFirstName>
+<ns3:AttendeeCompanyName secure="">D CASTILLO</ns3:AttendeeCompanyName>
+<ns3:AttendeeTitle secure="">Dr.</ns3:AttendeeTitle>
+<ns3:AttendeeYear-To-DateAmount secure="">0.00</ns3:AttendeeYear-To-DateAmount>
+<ns3:AttendeePreviousYearAmount secure="">0.00</ns3:AttendeePreviousYearAmount>
+<ns3:CurrencyAlphaCodeofAttendeeCurrency secure="">USD</ns3:CurrencyAlphaCodeofAttendeeCurrency>
+<ns3:AttendeeCustom7 secure="">-</ns3:AttendeeCustom7>
+<ns3:AttendeeCustom8 secure="">-</ns3:AttendeeCustom8>
+<ns3:AttendeeCustom9 secure="">PHTE</ns3:AttendeeCustom9>
+<ns3:AttendeeCustom14 secure="">-</ns3:AttendeeCustom14>
+<ns3:AttendeeCustom15 secure="">CR 6 9-40</ns3:AttendeeCustom15>
+<ns3:AttendeeCustom18 secure="">PIEDECUESTA</ns3:AttendeeCustom18>
+<ns3:AttendeeTransactionAmount secure="">117.50</ns3:AttendeeTransactionAmount>
+<ns3:AttendeeApprovedAmountinReimbursementCurrency secure="">117.50</ns3:AttendeeApprovedAmountinReimbursementCurrency>
+<ns3:AttendeeApprovedAmountinAttendeeCurrency secure="">0.04</ns3:AttendeeApprovedAmountinAttendeeCurrency>
+<ns3:AttendeeInstanceCount secure="">1</ns3:AttendeeInstanceCount>
+<ns3:AttendeeAmountIsEdited secure="">N</ns3:AttendeeAmountIsEdited>
+<ns3:ExpenseLocationCountryCode secure="">CO</ns3:ExpenseLocationCountryCode>
+<ns3:ExpenseLocationCityName secure="">Bogota</ns3:ExpenseLocationCityName>
+<ns3:AttendeeCustom25 secure="">-</ns3:AttendeeCustom25>
+</ns3:AttendeeData>
+<ns3:AttendeeData>
+<ns3:AttendeeKey>222062</ns3:AttendeeKey>
+<ns3:AttendeeUniqueIdentifier secure="">CO1003|-</ns3:AttendeeUniqueIdentifier>
+<ns3:AttendeeTypeName secure="">Health Care Professional (CO)</ns3:AttendeeTypeName>
+<ns3:AttendeeTypeCode secure="">HCPCO</ns3:AttendeeTypeCode>
+<ns3:AttendeeLastName secure="">D CASTILLO</ns3:AttendeeLastName>
+<ns3:AttendeeFirstName secure="">ENCARGADO DE FARMACIA</ns3:AttendeeFirstName>
+<ns3:AttendeeCompanyName secure="">D CASTILLO</ns3:AttendeeCompanyName>
+<ns3:AttendeeTitle secure="">Dr.</ns3:AttendeeTitle>
+<ns3:AttendeeYear-To-DateAmount secure="">0.00</ns3:AttendeeYear-To-DateAmount>
+<ns3:AttendeePreviousYearAmount secure="">0.00</ns3:AttendeePreviousYearAmount>
+<ns3:CurrencyAlphaCodeofAttendeeCurrency secure="">USD</ns3:CurrencyAlphaCodeofAttendeeCurrency>
+<ns3:AttendeeCustom7 secure="">-</ns3:AttendeeCustom7>
+<ns3:AttendeeCustom8 secure="">-</ns3:AttendeeCustom8>
+<ns3:AttendeeCustom9 secure="">PHTE</ns3:AttendeeCustom9>
+<ns3:AttendeeCustom14 secure="">-</ns3:AttendeeCustom14>
+<ns3:AttendeeCustom15 secure="">CR 6 9-40</ns3:AttendeeCustom15>
+<ns3:AttendeeCustom18 secure="">PIEDECUESTA</ns3:AttendeeCustom18>
+<ns3:AttendeeTransactionAmount secure="">117.50</ns3:AttendeeTransactionAmount>
+<ns3:AttendeeApprovedAmountinReimbursementCurrency secure="">117.50</ns3:AttendeeApprovedAmountinReimbursementCurrency>
+<ns3:AttendeeApprovedAmountinAttendeeCurrency secure="">0.04</ns3:AttendeeApprovedAmountinAttendeeCurrency>
+<ns3:AttendeeInstanceCount secure="">1</ns3:AttendeeInstanceCount>
+<ns3:AttendeeAmountIsEdited secure="">N</ns3:AttendeeAmountIsEdited>
+<ns3:ExpenseLocationCountryCode secure="">CO</ns3:ExpenseLocationCountryCode>
+<ns3:ExpenseLocationCityName secure="">Bogota</ns3:ExpenseLocationCityName>
+<ns3:AttendeeCustom25 secure="">-</ns3:AttendeeCustom25>
+</ns3:AttendeeData>
+<ns5:AllocationData IsTip="" TipVatCode="">
+<ns5:AllocKey>132849E</ns5:AllocKey>
+<ns5:AllocPercentage secure="">100.0000</ns5:AllocPercentage>
+<ns5:AllocCustom1 secure="">6000</ns5:AllocCustom1>
+<ns5:AllocCustom2>110090</ns5:AllocCustom2>
+<ns5:AllocCustom4 secure="">6000</ns5:AllocCustom4>
+<ns5:AllocCustom5>INTERNAL ORDER</ns5:AllocCustom5>
+<ns5:AllocCustom6/>
+<ns5:AllocCustom7 secure="">6000</ns5:AllocCustom7>
+<ns5:AllocCustom8/>
+<ns5:AllocCustom9 secure="">6000</ns5:AllocCustom9>
+<ns5:AllocCustom10 secure="">-</ns5:AllocCustom10>
+<ns5:TotAdjustedTax secure="">197.4800</ns5:TotAdjustedTax>
+<ns5:EntryLocationData>
+<ns5:ForeignorDomesticFlag secure="">HOME</ns5:ForeignorDomesticFlag>
+</ns5:EntryLocationData>
+<ns5:JournalEntryData>
+<ns5:JournalPayerPaymentTypeName secure="">Company</ns5:JournalPayerPaymentTypeName>
+<ns5:JournalPayerPaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayerPaymentCodeName>
+<ns5:JournalPayeePaymentTypeName secure="">Employee</ns5:JournalPayeePaymentTypeName>
+<ns5:JournalPayeePaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayeePaymentCodeName>
+<ns5:JournalAccountCode SAEGLCode="56800400" AZ="0" HCP="4" TotalAttendees="4">56800400</ns5:JournalAccountCode>
+<ns5:JournalDebitOrCredit secure="">DR</ns5:JournalDebitOrCredit>
+<ns5:JournalAmnt>+235.0000</ns5:JournalAmnt>
+<ns5:JournalKey>300964E</ns5:JournalKey>
+<ns5:LocalCurrencyJournalAmnt>235.0000</ns5:LocalCurrencyJournalAmnt>
+</ns5:JournalEntryData>
+</ns5:AllocationData>
+<ns5:AllocationData IsTip="" TipVatCode="">
+<ns5:AllocKey>132849E</ns5:AllocKey>
+<ns5:AllocPercentage secure="">100.0000</ns5:AllocPercentage>
+<ns5:AllocCustom1 secure="">6000</ns5:AllocCustom1>
+<ns5:AllocCustom2>110090</ns5:AllocCustom2>
+<ns5:AllocCustom4 secure="">6000</ns5:AllocCustom4>
+<ns5:AllocCustom5>INTERNAL ORDER</ns5:AllocCustom5>
+<ns5:AllocCustom6/>
+<ns5:AllocCustom7 secure="">6000</ns5:AllocCustom7>
+<ns5:AllocCustom8/>
+<ns5:AllocCustom9 secure="">6000</ns5:AllocCustom9>
+<ns5:AllocCustom10 secure="">-</ns5:AllocCustom10>
+<ns5:EntryLocationData>
+<ns5:ForeignorDomesticFlag secure="">HOME</ns5:ForeignorDomesticFlag>
+</ns5:EntryLocationData>
+<ns5:JournalEntryData>
+<ns5:JournalPayerPaymentTypeName secure="">VAT</ns5:JournalPayerPaymentTypeName>
+<ns5:JournalPayeePaymentTypeName secure="">Company</ns5:JournalPayeePaymentTypeName>
+<ns5:JournalPayeePaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayeePaymentCodeName>
+<ns5:JournalAccountCode SAEGLCode="56800400" AZ="0" HCP="4" TotalAttendees="4"/>
+<ns5:JournalDebitOrCredit secure="">CR</ns5:JournalDebitOrCredit>
+<ns5:JournalAmnt>+37.5200</ns5:JournalAmnt>
+<ns5:JournalKey>300964E</ns5:JournalKey>
+<ns5:LocalCurrencyJournalAmnt>235.0000</ns5:LocalCurrencyJournalAmnt>
+</ns5:JournalEntryData>
+</ns5:AllocationData>
+<ns5:AllocationData IsTip="" TipVatCode="">
+<ns5:AllocKey>132849E</ns5:AllocKey>
+<ns5:AllocPercentage secure="">100.0000</ns5:AllocPercentage>
+<ns5:AllocCustom1 secure="">6000</ns5:AllocCustom1>
+<ns5:AllocCustom2>110090</ns5:AllocCustom2>
+<ns5:AllocCustom4 secure="">6000</ns5:AllocCustom4>
+<ns5:AllocCustom5>INTERNAL ORDER</ns5:AllocCustom5>
+<ns5:AllocCustom6/>
+<ns5:AllocCustom7 secure="">6000</ns5:AllocCustom7>
+<ns5:AllocCustom8/>
+<ns5:AllocCustom9 secure="">6000</ns5:AllocCustom9>
+<ns5:AllocCustom10 secure="">-</ns5:AllocCustom10>
+<ns5:TotAdjustedTax secure="">197.4800</ns5:TotAdjustedTax>
+<ns5:EntryLocationData>
+<ns5:ForeignorDomesticFlag secure="">HOME</ns5:ForeignorDomesticFlag>
+</ns5:EntryLocationData>
+<ns5:JournalEntryData>
+<ns5:JournalPayerPaymentTypeName secure="">Company</ns5:JournalPayerPaymentTypeName>
+<ns5:JournalPayerPaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayerPaymentCodeName>
+<ns5:JournalPayeePaymentTypeName secure="">Employee</ns5:JournalPayeePaymentTypeName>
+<ns5:JournalPayeePaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayeePaymentCodeName>
+<ns5:JournalAccountCode SAEGLCode="56800400" AZ="0" HCP="4" TotalAttendees="4">56800400</ns5:JournalAccountCode>
+<ns5:JournalDebitOrCredit secure="">DR</ns5:JournalDebitOrCredit>
+<ns5:JournalAmnt>+235.0000</ns5:JournalAmnt>
+<ns5:JournalKey>300964E</ns5:JournalKey>
+<ns5:LocalCurrencyJournalAmnt>235.0000</ns5:LocalCurrencyJournalAmnt>
+</ns5:JournalEntryData>
+</ns5:AllocationData>
+<ns5:AllocationData IsTip="" TipVatCode="">
+<ns5:AllocKey>132849E</ns5:AllocKey>
+<ns5:AllocPercentage secure="">100.0000</ns5:AllocPercentage>
+<ns5:AllocCustom1 secure="">6000</ns5:AllocCustom1>
+<ns5:AllocCustom2>110090</ns5:AllocCustom2>
+<ns5:AllocCustom4 secure="">6000</ns5:AllocCustom4>
+<ns5:AllocCustom5>INTERNAL ORDER</ns5:AllocCustom5>
+<ns5:AllocCustom6/>
+<ns5:AllocCustom7 secure="">6000</ns5:AllocCustom7>
+<ns5:AllocCustom8/>
+<ns5:AllocCustom9 secure="">6000</ns5:AllocCustom9>
+<ns5:AllocCustom10 secure="">-</ns5:AllocCustom10>
+<ns5:EntryLocationData>
+<ns5:ForeignorDomesticFlag secure="">HOME</ns5:ForeignorDomesticFlag>
+</ns5:EntryLocationData>
+<ns5:JournalEntryData>
+<ns5:JournalPayerPaymentTypeName secure="">VAT</ns5:JournalPayerPaymentTypeName>
+<ns5:JournalPayeePaymentTypeName secure="">Company</ns5:JournalPayeePaymentTypeName>
+<ns5:JournalPayeePaymentCodeName secure="">Company/Employee Pseudo Payment Code</ns5:JournalPayeePaymentCodeName>
+<ns5:JournalAccountCode SAEGLCode="56800400" AZ="0" HCP="4" TotalAttendees="4"/>
+<ns5:JournalDebitOrCredit secure="">CR</ns5:JournalDebitOrCredit>
+<ns5:JournalAmnt>+37.5200</ns5:JournalAmnt>
+<ns5:JournalKey>300964E</ns5:JournalKey>
+<ns5:LocalCurrencyJournalAmnt>235.0000</ns5:LocalCurrencyJournalAmnt>
+</ns5:JournalEntryData>
+</ns5:AllocationData>
+<ns5:CarMileageData/>
+<ns5:CashAdvanceData/>
+<ns5:LocationCityName secure="">Bogota</ns5:LocationCityName>
+<ns5:IsBillable secure="">N</ns5:IsBillable>
+<ns5:LocationName secure="">Bogota</ns5:LocationName>
+<ns5:CountryCode secure="">CO</ns5:CountryCode>
+<ns5:FutureUse22 secure="">2</ns5:FutureUse22>
+</ns5:ReportEntryData>
+</ns5:ReportData>
+</ns5:Employee>
+</ns5:StandardExtractEBOType>
+</ns5:StandardExtractRequest>
+</ns5:StandardExtractRequestEBM>

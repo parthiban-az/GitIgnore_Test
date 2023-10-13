@@ -1,0 +1,18 @@
+<xsd:schema targetNamespace="http://tande.astrazeneca.com/EnterpriseObjects/EBM/StandardExtractEBM/V1" elementFormDefault="qualified" attributeFormDefault="qualified" version="1.00" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tande.astrazeneca.com/EnterpriseObjects/EBM/StandardExtractEBM/V1" xmlns:StandardExtractEBO="http://tande.astrazeneca.com/EnterpriseObjects/EBO/StandardExtractEBO/V1" xmlns:commonEBO="http://hrsoa.astrazeneca.com/EnterpriseObjectLibrary/CommonEBO/CommonEBOTypes/V1" xmlns:svcdoc="http://xmlns.oracle.com/Services/Documentation/V1">
+  <xsd:import schemaLocation="StandardExtractEBO.xsd" namespace="http://tande.astrazeneca.com/EnterpriseObjects/EBO/StandardExtractEBO/V1"/>
+  <xsd:import schemaLocation="../../../CommonEBO/V1/CommonEBOTypes.xsd" namespace="http://hrsoa.astrazeneca.com/EnterpriseObjectLibrary/CommonEBO/CommonEBOTypes/V1"/>
+  <xsd:element name="StandardExtractRequestEBM" type="tns:StandardExtractEBMRequestType"/>
+  <xsd:element name="StandardExtractResponseEBM" type="tns:StandardExtractEBMResponseType"/>
+  <xsd:complexType name="StandardExtractEBMRequestType">
+    <xsd:sequence>
+      <xsd:element name="AppHeader" type="commonEBO:SenderEBOType" minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element name="StandardExtractRequest" type="StandardExtractEBO:StandardExtractEBOTypeArray" minOccurs="1" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="StandardExtractEBMResponseType">
+    <xsd:sequence>
+      <xsd:element name="AppHeader" type="commonEBO:SenderEBOType" minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element name="StandardExtractResponse" type="StandardExtractEBO:StandardExtractResponseEBOType" minOccurs="1" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>
